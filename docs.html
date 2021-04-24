@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videoweb | Sample of project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+  crossorigin="anonymous" />
+  <!--links to the ccs files (you must create text file in xampp /htdocs/ name of your project) -->
+  <link rel="stylesheet" href="utilities.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="container flex">
+      <h1 class="logo">Videoweb.</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="docs.html">Docs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!--Head-->
+  <section class="docs-head bg-primary py-3">
+    <div class="container grid">
+      <div>
+        <h1 class="xl">Docs</h1>
+        <p class="lead">Learn how to work with the Videoweb platform
+        </p>
+      </div>
+      <img src="images/docs.png" alt="">
+    </div>
+  </section>
+
+<!--Docs main-->
+<section class="docs-main my-4">
+  <div class="container grid">
+    <div class="card bg-light p-3">
+      <h3 class="my-2">Essentials</h3>
+      <nav>
+        <ul>
+          <li><a href="#" class="text-primary">Introduction</a></li>
+          <li><a href="#">About Videoweb</a></li>
+          <li><a href="#">Installation</a></li>
+        </ul>
+      </nav>
+      <h3 class="my-2">Deployment</h3>
+      <nav>
+        <ul>
+          <li><a href="#">Setting up a container</a></li>
+          <li><a href="#">Using th Cli</a></li>
+          <li><a href="#">Managing resources</a></li>
+          <li><a href="#">Upgarde & downgrade</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="card">
+      <h2>Introduction</h2>
+      <p>See anyone can do it, all you need is style.
+Listen up, I'm gonna show you how. Put your hands to the side,
+and silly as it seems. Shake your body like a salmon floating up stream.</p>
+      <!--alert class is same as bootstrap class-->
+      <div class="alert alert-success">
+        <i class="fas fa-info"></i> Hey girls Hey boys Superstar DJ's
+Here we go!!!
+      </div>
+
+      <h3>Hey boys!!! Superstar DJ's!!!</h3>
+      <p>Hello boys and girls! My name is FatLip,
+And this is my friend, Sammy the Salmon.
+Today we're gonna teach you some fun facts.</p>
+      <a href="#" class="btn btn-primary">Install CLI</a>
+
+      <h3>Requirements</h3>
+      <ul>
+        <li>Windows 10, Mac OSX, Linux</li>
+        <li>Node.js version 12 or higher</li>
+      </ul>
+
+      <h3>Install</h3>
+      <p>Mac (Homebrew)</p>
+      <!--pre tag and code tag for making the terminal line-->
+      <pre><code>$ brew install Videoweb-Cli</code></pre>
+      <p>NPM (Homebrew)</p>
+      <pre><code>$ npm install Videoweb-Cli</code></pre>
+      <p>Yarn (Homebrew)</p>
+      <pre><code>$ yarn install Videoweb-Cli</code></pre>
+
+    </div>
+  </div>
+</section>
+<!--Footer-->
+<footer class="footer bg-dark py-5">
+  <div class="container grid grid-3">
+    <div>
+      <h1>Videoweb
+      </h1>
+      <p>Copyright &copy; 2020</p>
+    </div>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="docs.html">Docs</a></li>
+        </ul>
+    </nav>
+      <!--link to your social networks/gibhub-twitter-->
+    <div class="social">
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
